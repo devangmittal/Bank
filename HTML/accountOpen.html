@@ -1,0 +1,39 @@
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="../CSS/accountOpen.css">
+
+
+	<script src="../JS/accountOpen.js"></script>
+
+	<title>Open New Account</title>
+</head>
+
+<body>
+
+	<div class="background">
+		<div class="center">
+			<form class="container">
+				<div>
+					<h1>Login</h1>
+				</div>
+				<div><input type="text" class="input-gap" id="name" placeholder="Account Holder's Name"></div>
+				<div><input type="text" class="input-gap" id="number" placeholder="Account Number"></div>
+				<div><input type="password" class="input-gap" id="password" placeholder="Password"></div>
+				<div class="radiobtn">
+					<input type="radio" id="current" name="accounttype" value="Current Account">
+					<label for="current">Current Account</label>
+				</div>
+				<div class="radiobtn">
+					<input type="radio" id="saving" name="accounttype" value="Savings Account" checked>
+					<label for="saving">Savings Account</label>
+				</div>
+				<div>
+					<input type="button" onclick="openAccount()" class="submit-btn" value="Submit">
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>

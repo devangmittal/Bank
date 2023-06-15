@@ -1,0 +1,33 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="../CSS/transaction.css">
+	<script src="../JS/transaction.js"></script>
+
+
+</head>
+
+<body onload="show()">
+	<div class="background">
+		<div class="right">
+			<h1>welcome <span id="name"></span></h1>
+			<div class="container">
+				<div>
+					<h2> Account no. <span id="actno"></span> (<span id="type"></span>)</h2>
+				</div>
+				<div>
+					<h2> Balance <span id="balance"></span></h2>
+				</div>
+			</div>
+
+		</div>
+		<div class="left container">
+			<input type="text" id="amt" placeholder="Enter Amount">
+			<input type="button" onclick="deposit()" class="btn" value="Deposit">
+			<input type="button" onclick="withdraw()" class="btn" value="Withdraw">
+			<input type="button" onclick="logout()" class="btn" value="Log Out">
+		</div>
+	</div>
+</body>
+
+</html>

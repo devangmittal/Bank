@@ -1,0 +1,61 @@
+body {
+	background: #13232f;
+}
+
+.background {
+	position: absolute;
+	top: 5%;
+	right: 0px;
+	bottom: 5%;
+	left: 0px;
+}
+
+.center {
+	color: #13232f;
+	background: #c1bdba;
+	box-shadow: 0 4px 10px 4px #13232f;
+	height: 70%;
+	width: 40%;
+	margin: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+	top: 50%;
+	transform: translate(0, -50%);
+	padding: 10px;
+	text-align: center;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container>div {
+	width: 100%;
+}
+
+.input-gap {
+	background: #c1bdba;
+	height: 25px;
+	margin: 1.2%;
+	border: 0 0;
+	border-width: 0 0 1px;
+}
+
+.radiobtn {
+	padding: 0 50px 0 0;
+	margin-top: 15px;
+}
+
+.submit-btn {
+	background: #13232f;
+	border-radius: 5px;
+	color: #c1bdba;
+	height: 30px;
+	width: 35%;
+	margin-top: 20px;
+}
+
+input[type=radio]:checked {
+	accent-color: #13232f;
+}
